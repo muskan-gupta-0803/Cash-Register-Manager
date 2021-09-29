@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+tr,td,th{
+    border:2px solid green;
+    padding:1rem;
+}
+
+h1,p{
+    color:green;
+}
+
+table{
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+caption,#cash-given,#bill-amount,label{
+    font-size: 1.2rem;
+    color:purple;
+    margin-top: 1rem;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    font-size: 1.2rem;
+    border:2px solid purple;
+    border-radius: 5px;
+}
